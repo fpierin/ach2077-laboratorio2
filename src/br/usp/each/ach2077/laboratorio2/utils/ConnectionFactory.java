@@ -8,7 +8,7 @@ public class ConnectionFactory {
 	
 	public Connection getConnection(){
 		try {
-			return DriverManager.getConnection("jdbc:postgresql://147.107.58.177:5432/grupo50", "dbgrupo50", "51r3g");
+			return DriverManager.getConnection("jdbc:postgresql://143.107.58.177:5432/dbgrupo50", "grupo50", "51r3g");
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
